@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 332px;
+  height: fit-content;
+  border: 2px solid black;
+  display: flex;
+  margin: 10px auto;
+  padding: 5px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#result-container {
+  border: 2px solid black;
+  font-size: xx-large;
+  word-wrap: break-word;
+  min-height: 50px;
+  /* max-height: fit-content; */
+  width: 305px;
+  text-align: end;
+  padding: 7px;
+  margin: 5px;
+}
+
+#num-pad button{
+    border: 1px solid black;
+    width: 70px ;
+    height: 70px ;
+    padding: 3px;
+    margin: 5px;
+}
+
+button{
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  background-color: tomato;
+  transform: all 0.3s ease;
+}
+
+
+#result{
+  color: white;
+}
+
+.container{
+  background-color: black;
+  border-radius: 7px;
+}
+
+#result-container{
+  background-color: cadetblue;
+}
+
+
+button:active{
+  background-color: hsl(0, 1%, 75%);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
