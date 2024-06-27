@@ -15,11 +15,9 @@
 }
 
 #result-container {
-  border: 2px solid black;
   font-size: xx-large;
   word-wrap: break-word;
   min-height: 50px;
-  /* max-height: fit-content; */
   width: 305px;
   text-align: end;
   padding: 7px;
@@ -27,20 +25,24 @@
 }
 
 #num-pad button{
-    border: 1px solid black;
-    width: 70px ;
-    height: 70px ;
+    width: 74px ;
+    height: 74px ;
     padding: 3px;
-    margin: 5px;
+    margin: 2px;
+}
+
+#num-pad{
+  margin-left: 2px;
 }
 
 button{
   border-radius: 5px;
   cursor: pointer;
-  color: white;
+  color: black;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  width: 60px;
-  background-color: tomato;
+  background-color: #217c7e;
   transform: all 0.3s ease;
 }
 
@@ -51,7 +53,7 @@ button{
 
 .container{
   background-color: black;
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 #result-container{
@@ -60,7 +62,15 @@ button{
 
 
 button:active{
-  background-color: hsl(0, 1%, 75%);
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  background-color: hsl(0, 0%, 82%);
+  /* box-shadow: 0 2px #ffffff; */
 }
+
+.operators, #equals{
+  background-color: #ff8f1f;
+}
+
+#clear{
+  background-color: #1e90ff;
+}
+
